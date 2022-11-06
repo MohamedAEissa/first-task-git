@@ -1,1 +1,22 @@
+on:
+  push:
+    branches:
+      -master
+
+
+
+
+jobs:
+  bulid:
+    run-on: ubuntu-latest
+
+    steps:
+      - name: 'testing github'
+        run: pwd
+      - name: 'testing printung'
+        run: echo ahmed
+
+
+
+
 
